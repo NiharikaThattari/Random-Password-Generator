@@ -1,2 +1,5 @@
 # Random-Password-Generator
 The goal is to create a random password generator in Python that will help you create secure passwords for your systems. By following a series of easy, simple steps, Python allows you to create random passwords using a combination of alphabets and special characters.
+Generating random strong passwords for the end user who intend to keep there data safe. By using this code user can generate random passwords of what ever length they require. 
+The random password generated includes the combination of string  ASCII letters which contains the uppercase and lowercase letters and string digits from 0 to 9 and special characters.
+The generate_random_password() function includes the main functionality of the program. The main function asks user to enter the length of the password and calls the generate_random_password() function by passing the argument which is length of the password and generate_random_password() generates the password and returns it back to the main function which then prints and displays the randomly generated password to the end user
